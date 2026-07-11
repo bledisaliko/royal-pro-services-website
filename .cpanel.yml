@@ -1,0 +1,18 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ydhxqex4/public_html/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R docs $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH 2>/dev/null || true
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp services.html $DEPLOYPATH
+    - /bin/cp water-damage.html $DEPLOYPATH
+    - /bin/cp mold-remediation.html $DEPLOYPATH
+    - /bin/cp fire-smoke-damage.html $DEPLOYPATH
+    - /bin/cp demolition-restoration.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp contact.php $DEPLOYPATH
+    - /bin/cp thank-you.html $DEPLOYPATH
+    - /bin/cp IMAGE_REPLACEMENT_GUIDE.txt $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
