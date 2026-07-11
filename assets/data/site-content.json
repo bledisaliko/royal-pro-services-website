@@ -1,0 +1,38 @@
+{
+  "businessName": "Royal Pro Services Ltd",
+  "phoneDisplay": "+1 647-919-1332",
+  "phoneLink": "tel:+16479191332",
+  "email": "info@royalproservices.ca",
+  "serviceArea": "Toronto, GTA & Surrounding Areas",
+  "emergencyBarText": "24/7 Emergency Restoration Service - Toronto, GTA & Surrounding Areas",
+  "mainCta": "Call Now",
+  "secondaryCta": "Request Help",
+  "footerText": "Royal Pro Services. Local restoration support for Toronto, GTA and surrounding areas.",
+  "serviceAreas": [
+    "Toronto",
+    "Mississauga",
+    "Brampton",
+    "Vaughan",
+    "Markham",
+    "Durham Region"
+  ],
+  "services": [
+    "Water Damage",
+    "Mold Remediation",
+    "Fire & Smoke",
+    "Demolition",
+    "Restoration"
+  ],
+  "certifications": [
+    {
+      "name": "WSIB Insured",
+      "url": "https://www.wsib.ca/en",
+      "image": "assets/images/wsib.webp"
+    },
+    {
+      "name": "IICRC Certified",
+      "url": "https://iicrc.org/",
+      "image": "assets/images/iicrc.png"
+    }
+  ]
+}

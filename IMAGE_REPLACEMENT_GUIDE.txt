@@ -1,0 +1,82 @@
+ROYAL PRO SERVICES - IMAGE REPLACEMENT GUIDE
+
+This website uses local placeholder images in:
+/assets/images/
+
+Replace files by keeping the same filenames. Upload the new image with the exact same name, overwriting the placeholder. The HTML will continue to work without edits.
+
+Recommended formats:
+- Photos: WebP or JPG
+- Logo: PNG or SVG
+- Icons: SVG or PNG
+
+Current image files and where they appear:
+
+1. royal-pro-logo.png
+   Used in the header and footer on every page.
+   Recommended size: 1000-1600 px wide PNG with transparent or dark background.
+
+2. hero-restoration-team.jpg
+   Used as the main hero background on the homepage and inner page hero sections.
+   Recommended size: 1600 x 1000 px or larger, landscape.
+
+3. water-damage-restoration.jpg
+   Used on the homepage service card, services page and water damage page.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+4. flood-cleanup-basement.jpg
+   Used for flood and basement cleanup cards.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+5. mold-remediation-ppe.jpg
+   Used on the mold service card, homepage mold section and mold page.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+6. fire-smoke-damage.jpg
+   Used on the fire/smoke service card, homepage fire section and fire page.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+7. demolition-restoration.jpg
+   Used for demolition service cards and the demolition page hero content.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+8. restoration-drywall.jpg
+   Used for restoration service cards and repair/rebuild sections.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+9. drying-equipment.jpg
+   Used in the water damage highlight, CTA background and project placeholder cards.
+   Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+10. emergency-board-up.jpg
+    Used on the fire and smoke page for emergency protection/board-up support.
+    Recommended size: 1000 x 700 px or 1600 x 1000 px.
+
+11. service-area-map-gta.jpg
+    Used in the GTA service area section.
+    Recommended size: 1200 x 800 px. A simple branded map-style graphic works well.
+
+12. before-after-placeholder-1.jpg
+    Used in the homepage "Restoration Work You Can See" section.
+    Recommended size: 900 x 700 px.
+
+13. before-after-placeholder-2.jpg
+    Used in the homepage "Restoration Work You Can See" section.
+    Recommended size: 900 x 700 px.
+
+14. before-after-placeholder-3.jpg
+    Used in the homepage "Restoration Work You Can See" section.
+    Recommended size: 900 x 700 px.
+
+Contact and phone details already set:
+- Phone: +1 647-919-1332
+- Email: info@royalproservices.ca
+- All visible contact links point to contact.html so local preview will not show PHP code.
+- All forms submit to contact.php on cPanel hosting.
+- If the site is opened directly from your computer with file://, the forms open an email draft to info@royalproservices.ca as a local-preview fallback.
+
+Before going live:
+- Replace placeholder project photos with real Royal Pro Services job photos only if you have permission to use them.
+- Add real verified project photos when they are available.
+- Replace [WEBSITE URL] in the schema JSON-LD with the real domain once the website is live.
+- Test contact.php on the hosting account because PHP mail only runs through a web server, not by opening the PHP file directly from the computer.

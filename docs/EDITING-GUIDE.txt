@@ -1,0 +1,94 @@
+ROYAL PRO SERVICES WEBSITE - BEGINNER EDITING GUIDE
+
+This website is built for shared hosting/cPanel using HTML, CSS, JavaScript and PHP.
+
+IMPORTANT FOLDERS
+
+assets/images/
+Put logo and website photos here.
+
+assets/css/style.css
+Controls colors, spacing, layout and design.
+
+assets/js/main.js
+Controls mobile menu, animations, forms and the project photo slider.
+
+contact.php
+Handles the live contact form on cPanel hosting.
+
+HOW TO CHANGE PHONE NUMBER
+
+1. Open the website folder in GitHub Desktop or your editor.
+2. Search for:
+   +1 647-919-1332
+3. Replace it with the new visible phone number.
+4. Search for:
+   tel:+16479191332
+5. Replace it with the new phone link, using only digits after tel:+.
+
+HOW TO CHANGE EMAIL
+
+1. Search for:
+   info@royalproservices.ca
+2. Replace it with the new email address.
+3. Make sure contact.php also has the new email.
+
+HOW TO REPLACE THE LOGO
+
+1. Go to:
+   assets/images/
+2. Replace:
+   royal-pro-logo.png
+3. Keep the same filename.
+4. Refresh the website.
+
+HOW TO REPLACE SERVICE PHOTOS
+
+Replace the image file with the same filename inside assets/images/.
+
+Important service image names:
+
+royal-pro-logo.png
+hero-restoration-team.jpg
+water-damage-restoration.jpg
+flood-cleanup-basement.jpg
+mold-remediation-ppe.jpg
+fire-smoke-damage.jpg
+demolition-restoration.jpg
+restoration-drywall.jpg
+drying-equipment.jpg
+service-area-map-gta.jpg
+wsib.webp
+iicrc.png
+
+HOW TO UPDATE GITHUB AFTER CHANGES
+
+1. Open GitHub Desktop.
+2. Make sure the repository is royal-pro-services-website.
+3. You will see changed files on the left.
+4. In Summary, write a short note, for example:
+   Update website photos
+5. Click:
+   Commit to main
+6. Click:
+   Push origin
+
+HOW TO UPLOAD TO CPANEL WITH GIT
+
+1. Log in to WHC/cPanel.
+2. Open Git Version Control.
+3. Create or open the royal-pro-services-website repository.
+4. Use the GitHub repo URL:
+   https://github.com/bledisaliko/royal-pro-services-website
+5. Pull the latest version.
+6. Deploy to public_html.
+
+FILES TO AVOID TOUCHING UNLESS EDITING DESIGN
+
+assets/css/style.css
+assets/js/main.js
+contact.php
+
+BEST PRACTICE
+
+When replacing images, keep the same filename. That way the website updates without editing code.
